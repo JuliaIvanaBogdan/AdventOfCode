@@ -11,7 +11,7 @@ int partone(){
     std::list<std::tuple<int,int>> vents;
         
     std::ifstream input;
-    input.open("C:\\Users\\Julia\\Documents\\VSCode\\AdventOfCode\\day5\\day5input");
+    input.open("input file location");
 
     int x1,y1,x2,y2;
     char e,f,g,h;
