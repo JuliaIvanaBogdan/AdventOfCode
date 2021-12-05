@@ -7,7 +7,7 @@ public class day1 {
 	
 	
 	public static int partone() throws FileNotFoundException {
-		File input = new File("C:\\Users\\julia\\eclipse-workspace\\AdventOfCode\\Day1\\day1input");
+		File input = new File("input file location");
 		Scanner sc = new Scanner(input);
 		
 		//int[] depth = new int[2000];
@@ -35,7 +35,7 @@ public class day1 {
 	
 
 	public static int parttwo() throws FileNotFoundException {
-		File input = new File("C:\\Users\\julia\\eclipse-workspace\\AdventOfCode\\Day1\\day1input");
+		File input = new File("input file location");
 		Scanner sc = new Scanner(input);
 		
 		int increase = 0;
