@@ -8,7 +8,7 @@ int stepone(){
     int depth = 0;
 
     std::ifstream input;
-    input.open("C:\\Users\\Julia\\Documents\\VSCode\\AdventOfCode\\day2input");
+    input.open("input file location");
 
     if(!input){
         printf("problem opening file");
@@ -39,7 +39,7 @@ int steptwo(){
     int aim = 0;
 
     std::ifstream input;
-    input.open("C:\\Users\\Julia\\Documents\\VSCode\\AdventOfCode\\day2input");
+    input.open("input file location");
 
     if(!input){
         printf("problem opening file");
